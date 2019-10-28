@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const app = express();
 const cors = require("cors");
 app.use(cors());
-const employeeRoute = require("./routes/employee");
+const Routes = require("./routes/Routes");
 app.use(express.json());
 mongoose
   .connect("mongodb://localhost:27017/Atlan", { useNewUrlParser: true })
@@ -14,7 +14,7 @@ mongoose
     console.log(err);
   });
 
-app.use("/employee", employeeRoute);
+app.use("/employee", Routes);
 const port = 8080;
 
 app.listen(port, () => {

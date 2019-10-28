@@ -1,22 +1,32 @@
 .App {
-  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+}
+span {
+  color: #2026d2;
+  font-weight: bold;
+}
+.display-3 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.content {
+  font-size: 1.05rem;
+}
+.buttonUpload {
+  background-color: #2026d2;
+  color: #fafbfc;
 }
 
-.App-logo {
-  height: 40vmin;
+.buttonUpload:hover {
+  background-color: #2026d2;
+  transition: 100ms;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.buttonStop {
+  background-color: #fafbfc;
+  color: #2026d2;
+  border: 1px solid #2026d2;
 }
-
-.App-link {
-  color: #09d3ac;
+.buttonStop:hover {
+  background-color: #2026d2;
+  transition: 100ms;
 }
