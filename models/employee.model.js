@@ -1,5 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
+
+// Schema for csv file
 const employeeSchema = new Schema({
   S_NO :{
     required: false,

@@ -2,4 +2,4 @@
 /client/node_modules/
 /serverTwo/node_modules/
 
-*.csv
+data.csv
