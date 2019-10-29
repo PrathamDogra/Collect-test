@@ -57,7 +57,7 @@ const upload = flag => {
         const newEmployee = Employee(array[i]);
         await newEmployee.save();
 
-        console.log(`Employee ${i + 1} Added`);
+        console.log(`Row ${i + 1} Added`);
         if (i == array.length - 1) {
           resolve("Upload Completed");
         }
