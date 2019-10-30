@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Button, Jumbotron } from "reactstrap";
 import axios from "axios";
-import { Progress } from "reactstrap";
 import Header from "./Header";
 
 class Main extends Component {

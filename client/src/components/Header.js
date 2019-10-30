@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Navbar, NavbarBrand, Nav } from "reactstrap";
+import React from "react";
+import { Navbar, NavbarBrand } from "reactstrap";
 
 const styles = { fontSize: "1.5rem" };
 const Header = () => {

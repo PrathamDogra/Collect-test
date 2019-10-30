@@ -2,10 +2,7 @@ const express = require("express");
 const router = express.Router();
 const Employee = require("../models/employee.model");
 const csv = require("csv-parser");
-const fs = require("fs");
-const axios = require("axios");
-const request = require("request");
-
+const fs = require('fs')
 const array = [];
 var globalFlag = 1;
 

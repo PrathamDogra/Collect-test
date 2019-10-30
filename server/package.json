@@ -1,24 +1,16 @@
 {
-  "name": "Atlan-Test",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "@open-tech-world/cli-progress-bar": "^1.0.6",
-    "axios": "^0.19.0",
-    "cli-progress": "^3.3.1",
-    "cluster": "^0.7.7",
-    "concurrently": "^5.0.0",
     "cors": "^2.8.5",
     "csv-parser": "^2.3.1",
     "express": "^4.17.1",
     "fast-csv": "^3.4.0",
-    "fs": "^0.0.1-security",
-    "https": "^1.0.0",
+    "fs": "0.0.1-security",
     "mongoose": "^5.7.5",
-    "nodemon": "^1.19.4",
-    "os": "^0.1.1",
-    "request": "^2.88.0"
+    "nodemon": "^1.19.4"
   },
   "devDependencies": {},
   "scripts": {
