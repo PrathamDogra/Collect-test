@@ -27,7 +27,11 @@ Implement a solution through which the user can stop the long-running task(like 
 
 ## Project Demo
 
-![Alt Text](https://github.com/PrathamDogra/Collect-test/blob/master/Atlan.gif)
+### Data Upload
+![Alt Text](https://github.com/PrathamDogra/Collect-test/blob/master/GIF/Atlan.gif)
+
+### API calls
+![Alt Text](https://github.com/PrathamDogra/Collect-test/blob/master/GIF/Atlan%20(1).gif)
 
 ## How to run the Project\*
 
