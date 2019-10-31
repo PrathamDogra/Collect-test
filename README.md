@@ -33,7 +33,7 @@ Implement a solution through which the user can stop the long-running task(like 
 ### API calls
 ![Alt Text](https://github.com/PrathamDogra/Collect-test/blob/master/GIF/Atlan%20(1).gif)
 
-## How to run the Project\*
+## How to run the Project
 
 - Clone the repository.
 - Go to the project folder in your local machine and then go the server folder.
