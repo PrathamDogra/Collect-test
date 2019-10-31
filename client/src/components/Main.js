@@ -30,18 +30,18 @@ class Main extends Component {
     if (button === "Stop") {
       axios
         .get(`http://localhost:8080/employee/stop`)
-        .then(res => {
-          this.setState({ flag: res.flag });
-        })
+        // .then(res => {
+        //   this.setState({ flag: res.flag });
+        // })
         .catch(err => console.log(err));
 
       this.setState({ button: "Resume" });
     } else if (button === "Resume") {
       axios
         .get(`http://localhost:8080/employee/resume`)
-        .then(res => {
-          this.setState({ flag: res.flag });
-        })
+        // .then(res => {
+        //   this.setState({ flag: res.flag });
+        // })
         .catch(err => console.log(err));
 
       this.setState({ button: "Stop" });

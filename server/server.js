@@ -8,7 +8,10 @@ app.use(express.json());
 
 // MongoDB is connected
 mongoose
-  .connect("mongodb://localhost:27017/Atlan", { useNewUrlParser: true })
+  .connect(
+    "mongodb+srv://Pratham:Pratham@node-cluster-gx6ut.mongodb.net/Atlan?retryWrites=true&w=majority",
+    { useNewUrlParser: true }
+  )
   .then(() => {
     console.log("Connect to MongoDB");
   })
