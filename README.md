@@ -25,4 +25,8 @@ Implement a solution through which the user can stop the long-running task(like 
 
 * http://localhost:8080/employee/stop
 
+## Project Demo
+
+![Alt Text](https://github.com/PrathamDogra/Collect-test/blob/master/Atlan.gif)
+
 ## How to run the Project
